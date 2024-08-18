@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="counter.css">
+    <title>Counter Application</title>
+</head>
+
+<body>
+    <!-- wrapper -->
+    <div class="w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-[#2877cb] gap-10">
+
+
+        <div class="font-bold text-white text-[20px] ">Increment And Decrement</div>
+
+
+        <div class="bg-[#ffffcc] flex flex-row justify-center text-[20px] text-[#344151] rounded-sm gap-12 p-3 px-5">
+
+            <!-- Negetive Button -->
+            <button onclick="Decrement()" class="border-r-2 border-[#bfbfbf] pr-5"><i
+                    class="fa-solid fa-minus"></i></button>
+
+            <div id="counter" class="font-bold">0</div>
+
+            <!-- Positive Button -->
+            <button onclick="Increment()" class="border-l-2 border-[#bfbfbf] pl-5"><i
+                    class="fa-solid fa-plus"></i></button>
+
+        </div>
+
+    </div>
+
+</body>
+<script src="Counter.js"></script>
+<script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+
+</html>
